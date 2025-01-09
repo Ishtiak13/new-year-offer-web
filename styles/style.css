@@ -1,0 +1,320 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+header {
+  width: 1320px;
+  height: 600px;
+  /* background-image: url(../images/Banner\ Image.png); */
+  background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url(../images/Banner\ Image.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 50px auto 0;
+  border-radius: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+}
+main {
+  max-width: 1320px;
+  margin: 0 auto;
+}
+/* Shared style */
+.primary-color {
+  color: #ffffff;
+}
+.secondary-color {
+  color: red;
+}
+.first-font {
+  font-family: "Merriweather", serif;
+}
+.second-font {
+  font-family: "Inter", serif;
+}
+
+.subtitle {
+  font-size: 32px;
+}
+.title {
+  font-size: 72px;
+  width: 60%;
+  margin: 0 auto;
+}
+/* main style */
+.offer1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 120px auto;
+}
+.discount {
+  font-size: 88px;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+.offer1-detail {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+.offer1-cat {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 48px;
+}
+.party {
+  height: 600px;
+  background: linear-gradient(90deg, black, rgba(255, 255, 255, 0) 100%),
+    url(../images/Vectorrr.png);
+  margin: 0 auto;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.party-body {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin: 0 125px 0 138px;
+}
+.text h2 {
+  font-size: 64px;
+  width: 80%;
+  margin-bottom: 24px;
+}
+.text p {
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 48px;
+}
+.text button {
+  border: none;
+  background-color: #ffffff00;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+  padding: 20px;
+}
+.event-detail {
+  height: 448px;
+  background: linear-gradient(#ff000023 0%, white 100%);
+  margin: 130px auto;
+  border-radius: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.event {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.event p {
+  font-size: 32px;
+  font-weight: 600;
+}
+.event button {
+  border: none;
+  border-radius: 5px;
+  background-color: #ff0000;
+  font-size: 20px;
+  font-weight: bold;
+  margin-top: 48px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+.best-offer {
+  display: flex;
+  gap: 100px;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+.offer-detail {
+  width: 50%;
+}
+.offer-detail h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+}
+.best-offer h2 {
+  font-size: 48px;
+  font-weight: 1000;
+  margin: 16px 0 22px;
+}
+.best-offer p {
+  font-size: 20px;
+  font-weight: 400;
+  color: #000000af;
+}
+.best-offer > img {
+  border-radius: 50%; /* Make the image circular */
+  border: 15px solid white; /* Add a white border (padding effect) */
+  box-shadow: 0 0 0 15px red; /* Create the red border around the white padding */
+  object-fit: cover;
+}
+.offer-detail1 h2 {
+  margin-bottom: 18px;
+}
+.offer-detail1 img {
+  margin: 21px;
+}
+.holiday {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.holiday h3 {
+  font-size: 24px;
+  font-weight: 500;
+}
+.holiday h2 {
+  font-size: 72px;
+  font-weight: bold;
+  margin: 16px 0 28px;
+}
+.holiday p {
+  font-size: 20px;
+  color: #000000af;
+  width: 60%;
+  text-align: center;
+}
+.image-container {
+  position: relative;
+  height: 662px;
+}
+.overlay-image {
+  position: absolute;
+  width: 50%;
+  bottom: 40px;
+  left: 10px;
+}
+.discount-img {
+  position: absolute;
+  right: 47px;
+  bottom: 280px;
+}
+.bg-img {
+  margin-top: 430px;
+  border-radius: 16px;
+}
+.product {
+  margin: 120px 0;
+  line-height: 48px;
+}
+.product h3 {
+  font-size: 24px;
+  font-weight: 500;
+  color: #ff0000;
+}
+.product h2 {
+  font-size: 48px;
+  font-weight: 1000;
+  margin-bottom: 30px;
+}
+.product p {
+  font-size: 20px;
+  color: #000000af;
+  width: 70%;
+  line-height: 20px;
+}
+.product-img {
+  margin: 30px 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+}
+.news {
+  height: 616px;
+  background-color: #ff000009;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  border-radius: 16px;
+  margin-bottom: 120px;
+}
+.news h2 {
+  font-size: 48px;
+  font-weight: 1000;
+}
+.news p {
+  font-size: 20;
+  width: 60%;
+  text-align: center;
+}
+.news input {
+  border: none;
+  font-size: 20px;
+  padding: 10px;
+}
+.news input[type="email"] {
+  border-radius: 50px 0 0 50px;
+}
+.news input[type="submit"] {
+  color: white;
+  background-color: #ff0000;
+  border-radius: 0 50px 50px 0;
+}
+footer {
+  background-color: #070211;
+  color: white;
+  height: 609px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .for-width {
+  font-size: 24px;
+  /* padding: 111px 0; */
+  display: flex;
+  margin: 0 auto;
+  width: 80%;
+  font-family: inter;
+  font-weight: 500;
+  justify-content: space-around;
+  flex-direction: column;
+  gap: 50px;
+}
+footer .address,
+footer .copy-right {
+  display: flex;
+  justify-content: space-between;
+}
+footer .icons {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  align-items: center;
+}
+.copy-right button {
+  font-size: 24px;
+  border: none;
+  background-color: #07021100;
+  cursor: pointer;
+}
+footer .contact {
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+footer a {
+  color: white;
+}
+.address p {
+  width: 30%;
+}
